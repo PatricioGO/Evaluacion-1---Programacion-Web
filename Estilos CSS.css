@@ -1,0 +1,184 @@
+/*Define los aspectos globales de la pagina como el color de fondo, tipo de fuente, etc.*/
+body{
+    background: white;
+    font-family: 'Calibri';
+    font-size: 15px;
+    margin: 0;
+}
+
+
+/* Define en negrita a todos los elemetos que son de la clase x-subti */
+.ini-subti, .exp-subti, .proy-subti {
+    font-weight: bold;
+}
+/* Define las especificaciones de los elementos de clase .titulo; Tambien se ocupó
+para dar una letra distinta a la del esquema completo de la pagina*/
+.titulo{
+    font-family:  'Arial';
+    font-size: 25px;
+    color: rgb(0, 98, 0);
+}
+
+/*Define el estilo, a travez de su ID, del contenedor div que esta presente en todas las paginas */
+#hd{
+    text-align: center;
+    background: rgb(189, 190, 191);
+}
+
+/*Define las especificaciones de diseño de la etiqueta header y 
+sus elementos internos (.menu, #logo, nav, etc)*/
+header{
+    background: rgb(206, 220, 219);
+    width: 100%;
+    border-radius: 10px;
+    content: '';
+    display: table;
+}
+.menu{
+    width: 100%;
+    margin: 0 auto;
+}
+#logo{
+    float: left;
+    width: 120px;
+    height: 100px;
+    padding: 8px;
+    border-radius: 20px;
+}
+nav{
+    float: right;
+    padding-right: 80px;
+}
+nav ul li{
+    list-style: none;
+    float: right;
+    padding: 10px;
+}
+li{
+    border-radius: 30%;
+    background: rgb(142, 171, 142);
+    margin-right: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+.espacio{
+    clear: both;
+}
+
+/* Define el diseño de los titulos presentes en todas las paginas pero que se usaron los ID
+para sus especificaciones y asi poder editar aparte, ya que estos tambien son de la clase .titulo */
+
+#inic-Titulo,#exp-Titulo,#proy-Titulo,#cont-Titulo{
+    background: rgb(189, 190, 191);
+    text-align: center;
+}
+
+/* Define las especificaciones, a traves del ID, del div que solo esta presente en la pagina de inicio  */
+#info{
+    border: 3px solid rgb(189, 190, 191);
+    text-align: center;
+    padding-top: 20px;
+    
+}
+#personal-pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/*Define el estilo de los contenedores, a traves de su ID, que solo estan presentes 
+en pagina de "inicio" y "experiencia" */
+#formacion, #present, #forta, #debil, #trabajo,#exp-LengProg,#exp-Cursos,#exp-Labo{
+    padding-left: 25px;
+    border-bottom: 3px solid black;
+    background: rgb(206, 220, 219);
+}
+
+
+/* Aqui se especifican los estilos de los contenedores con clase .proy-Titulos, .proy-subti
+  de la pagina "proyectos" */
+.proy-Titulos{
+    text-align: center;
+    background: rgb(206, 220, 219);
+    border-radius: 50px;
+    border: 2px solid black;
+    margin: 10px;
+}
+.proy-subti{
+    background: rgb(189, 190, 191);
+    border: 2px dashed black ;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 70px;
+}
+
+
+/* Dimensiones de las imagenes contenidas en la pagina PROYECTOS */
+#imgTablas{
+    width: 90%;
+    height: 90%;
+}
+#imgFormSecure{
+    width: 40%;
+    height: 40%;
+}
+#imgintrfGraph{
+    width: 60%;
+    height: 60%;
+}
+#imgFormCSS{
+    width: 70%;
+    height: 70%;
+}
+#imgWikiCSS{
+    width: 80%;
+    height: 80%;
+}
+
+
+/*Aqui se define el estilo del formulario que esta en la pagina de contacto*/
+form{
+    text-align: center;
+    background: rgb(206, 220, 219);
+    border: 3px dashed black ;    
+}
+
+/*Aqui se definen los aspectos del FOOTER, su contenedor y sus caracteristicas en especifico
+que se aplican por igual a todas las paginas*/
+footer{
+    background:whitesmoke;
+}
+.foot{
+    width: 100%;
+    margin: 0 auto;
+}
+#logo-st{
+    float: left;   
+    width: 120px;
+    height: 100px;
+    padding: 8px 10px;
+}
+.lb{
+    text-align: right;
+    padding: 10px 30px;
+    color: rgb(0, 98, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
